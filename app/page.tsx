@@ -1,7 +1,9 @@
+import BlogPosts from "./components/element/BlogPosts/BlogPosts";
+
 export default function Home() {
   return (
     <>
-      <h1>hello</h1>
+      <BlogPosts />
     </>
   );
 }

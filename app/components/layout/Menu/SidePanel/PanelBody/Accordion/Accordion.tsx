@@ -5,7 +5,7 @@ import ArrowDropUpIcon from "../icons/ArrowDropUpIcon";
 interface AccordipnProps {
   isPushed: boolean;
   label: string;
-  icon: React.ReactElement;
+  icon: React.ReactElement | null;
   children: React.ReactNode;
 }
 

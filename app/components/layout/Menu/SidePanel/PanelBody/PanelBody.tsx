@@ -13,7 +13,7 @@ export default function PanelBody({ isPushed, onClick }: PushedProps) {
     <div className="flex flex-col overflow-y-auto overflow-x-hidden h-full">
       {links.map((entry) => {
         const Icon = Icons[entry.icon];
-        const iconElement = <Icon width="24px" />;
+        const iconElement = Icon ? <Icon width="24px" /> : null;
 
         if (entry.items) {
           return (

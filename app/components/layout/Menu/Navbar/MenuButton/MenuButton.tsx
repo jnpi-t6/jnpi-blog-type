@@ -10,14 +10,14 @@ const MenuButton = ({ isPushed, onClick }: PushedProps) => {
       <div className="flex flex-row">
         <button
           onClick={onClick}
-          className="text-gray-500 cursor-pointer opacity-50 bg-inherit border-0 rounded-lg px-2 mr-2 z-30 hover:bg-gray-200"
+          className="text-[#666564] cursor-pointer opacity-50 bg-inherit border-0 rounded-lg px-2 mr-2 z-30 hover:bg-gray-200"
           type="button"
           aria-label="Menu Button"
           aria-pressed="false"
         >
           {isPushed ? <HamburgerCloseIcon /> : <HamburgerIcon />}
         </button>
-        <Link href="/" className="text-3xl text-gray-500 no-underline relative">
+        <Link href="/" className="text-2xl text-gray-500 no-underline relative">
           jnpi Blog
         </Link>
       </div>

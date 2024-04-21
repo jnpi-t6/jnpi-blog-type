@@ -27,7 +27,7 @@ export default function Accordion({
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col flex-shrink-0">
       <div
         onClick={handleClick}
         role="button"

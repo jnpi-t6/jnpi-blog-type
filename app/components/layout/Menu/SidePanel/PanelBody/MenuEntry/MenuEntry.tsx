@@ -15,7 +15,7 @@ export default function MenuEntry({
     <>
       <Link
         href={`${href}`}
-        className="cursor-pointer flex items-center h-16 px-4 text-lg bg-transparent text-[#666564] hover:bg-[#eff4f5] [&>svg]:mr-2"
+        className="cursor-pointer flex items-center h-16 px-4 text-lg bg-transparent text-[#666564] hover:bg-[#eff4f5] [&>svg]:mr-2 flex-shrink-0"
         role="button"
         {...props}
       >
